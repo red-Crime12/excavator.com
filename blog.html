@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="images/Capture-removebg-preview.png" alt="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu"></i>
+        </nav>
+           <h3>Blog</h3>
+    </section>
+
+   
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="/images/architects-are-using-a-calculator-to-estimate-the-cost-of-house-plans-photo.jpg" alt="">
+            <h2>Our Affordable & Accurate Estimatiom Services</h2>
+            <p> We pride ourselves on quick turnarounds - on takeoffs and estimates at any phase of your construction project. Whether it is a preliminary estimate, a budget estimate, a conceptual estimate, or a final construction estimate, your project can be completed and back to you in 24 to 36 hours in most cases.</p>
+            <br>
+            <p>To learn more about our quick turnarounds, call today at 718-717-8306 You will be impressed by our rapid and accurate service.</p>
+            <br>
+            <p>Turning around your project on time, on budget, and in detail makes you look good to your client. It gives you a definitive edge over your competition. With our unmatched accuracy, the result will be your ability to secure more projects and greater profitability for your company. Let us help you shine in the construction arena with our one- to two-day turnarounds.</p>
+            <br>
+            <p>Let quick turnarounds give you the edge over your competition. We have been leading the industry in construction estimating for over thirty years with a reputation for speed, accuracy, and experience.
+             You don't have to invest in expensive software and training. Outsource your estimating, and takeoff needs to us. Let us be your estimating partner in your quest for success.
+            </p>
+
+            <div class="comment-box">
+                <h2>Leave a comment</h2>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter E-mail">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+       <h3>Services Categories</h3>
+       <div>
+        <span>Roofing Estimation</span>
+       </div>
+       <div>
+        <span> Electical Estimation</span>
+       </div>
+       <div>
+        <span>Flooring Estimation</span>
+       </div>
+       <div>
+        </span>Drywall Estimation</span>
+       </div>
+       <div>
+        <span> Hvac Estimation</span>
+       </div>
+       <div>
+        <span> Plumbing Estimation</span>
+       </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!---footer-->
+
+<section class="footer">
+    <p>We are the most eminent Estimating Company listed on top rank in Cost Estimator Company<br> and well known in best estimating companies NYC.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"s></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>Copyright &copy; 2022 All Rights Reserved by </p>
+        <a href="#"><img src="/images/Capture-removebg-preview.png" alt=""></a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---Java-script for toggle menu-->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
